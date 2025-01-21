@@ -1,0 +1,63 @@
+
+@font-face {
+  font-family: 'iranYekan';
+  src: url('./fonts/iranyekanwebthin.woff');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'iranYekan';
+  src: url('./fonts/iranyekanweblight.woff');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'iranYekan';
+  src: url('./fonts/iranyekanwebregular.woff');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'iranYekan';
+  src: url('./fonts/iranyekanwebmedium.woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'iranYekan';
+  src: url('./fonts/iranyekanwebbold.woff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'iranYekan';
+  src: url('./fonts/iranyekanwebextrabold.woff');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'iranYekan';
+  src: url('./fonts/iranyekanwebblack.woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'iranYekan';
+  src: url('./fonts/iranyekanwebextrablack.woff');
+  font-weight: 800;
+}
+
+.swiper-pagination-bullet {
+  width: 1em !important;
+  height: 1em !important;
+  background-color: white !important;
+  display: inline-block;
+  cursor: pointer;
+  flex: none;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+  width: 3em !important;
+  height: 1em !important;
+  background-color: rgb(187, 187, 187) !important;
+  border-radius: 10px !important
+  /* box-shadow: 0px 0px 1px 3px #e5f2e9; */
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

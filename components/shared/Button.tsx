@@ -13,7 +13,7 @@ function Button({ children, classCustom, theme, loading, link }: ButtonProp) {
   const router = useRouter();
   return (
     <button
-      className={`w-40 h-16 mt-6 text-white font-medium rounded-full transition-all duration-500 flex items-center justify-center ${
+      className={`px-4 py-2 mt-6 text-white font-medium rounded-full transition-all duration-500 flex items-center justify-center ${
         theme == "Primary"
           ? " bg-violet-700"
           : "bg-violet-200 hover:bg-violet-700"

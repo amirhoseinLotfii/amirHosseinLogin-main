@@ -15,7 +15,7 @@ export const slides = [
   },
   {
     id: 3,
-    image: "/images/earthMapPng",
+    image: "/images/earthMapPng.png",
     textPrimary: "پروژه های چند زبانه",
     textSecondry: "",
     widthImg: 1000,

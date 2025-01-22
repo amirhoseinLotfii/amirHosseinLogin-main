@@ -18,6 +18,6 @@ export const slides = [
     image: "/images/earthMapPng.png",
     textPrimary: "پروژه های چند زبانه",
     textSecondry: "",
-    widthImg: 1000,
+    widthImg: 500,
   },
 ];

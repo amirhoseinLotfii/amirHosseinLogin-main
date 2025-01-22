@@ -1,0 +1,20 @@
+.swiper-pagination-bullet {
+  width: 1em !important;
+  height: 1em !important;
+  background-color: white !important;
+  display: inline-block;
+  cursor: pointer;
+  flex: none;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+  width: 3em !important;
+  height: 1em !important;
+  background-color: rgb(187, 187, 187) !important;
+  border-radius: 10px !important;
+  /* box-shadow: 0px 0px 1px 3px #e5f2e9; */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
